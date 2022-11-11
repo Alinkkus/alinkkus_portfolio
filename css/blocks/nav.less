@@ -48,8 +48,11 @@
         bottom: -5px;
         left: 0;
         z-index: 1;
-
         transition: width .2s linear;
+
+        @media @mobile {
+            bottom: 4.5px;
+        } 
     }
 
     &:hover:not(.nav__link--btn) {
@@ -58,7 +61,6 @@
             width: 100%;
         }
     }
-
 
     /* Modificators */
     &--btn {
@@ -78,6 +80,8 @@
     @media @mobile {
         width: 100%;
         margin-left: 0;
-        padding: .5rem 1rem;
+        padding: .5rem 2rem;
     }
+
 }
+
