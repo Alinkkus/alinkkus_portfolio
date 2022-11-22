@@ -2,22 +2,27 @@
 @import "vars";
 
 html {
-   font-size: 15px;
+    font-size: 15px;
 }
 
 body {
-    margin: 0;
+    margin     : 0;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
-    color: @black;
-    overflow-x: hidden;
+    font-size  : 1rem;
+    color      : @black;
+    overflow-x : hidden;
 
     &.no-scroll {
         overflow: hidden;
-    }  
+    }
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin: 0;
 }
 
@@ -55,7 +60,6 @@ p {
 @import "blocks/contact";
 @import "blocks/form";
 @import "blocks/burger";
-
 
 /* Helpers */
 @import "helpers";
